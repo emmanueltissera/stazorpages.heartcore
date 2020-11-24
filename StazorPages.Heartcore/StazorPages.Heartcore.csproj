@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Emmanuel Tissera</Authors>
+    <Description>Creates static HTML pages on the first request to an ASP.NET MVC project. Plugin for Umbraco Heartcore.</Description>
+    <Version>1.0.0-alpha.2</Version>
+    <PackageIcon>stazor-pages-heartcore-icon.png</PackageIcon>
+    <PackageLicenseExpression>(MIT)</PackageLicenseExpression>
+    <Copyright>© Emmanuel Tissera</Copyright>
+    <PackageTags>Static HTML, Razor, MVC, Headless, CaaS, Umbraco, Heartcore</PackageTags>
+    <RepositoryUrl>https://github.com/emmanueltissera/stazorpages.heartcore</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://blog.emmti.com/p/stazor-pages.html</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Html.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="5.0.0" />
+    <PackageReference Include="StazorPages" Version="1.0.0-alpha.2" />
+    <PackageReference Include="Umbraco.Headless.Client.Net" Version="1.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="stazor-pages-heartcore-icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
