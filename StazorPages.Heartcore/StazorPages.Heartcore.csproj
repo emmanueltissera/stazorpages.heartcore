@@ -5,7 +5,7 @@
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Authors>Emmanuel Tissera</Authors>
     <Description>Creates static HTML pages on the first request to an ASP.NET MVC project. Plugin for Umbraco Heartcore.</Description>
-    <Version>1.0.0-alpha.2</Version>
+    <Version>1.0.0-alpha.2.1</Version>
     <PackageIcon>stazor-pages-heartcore-icon.png</PackageIcon>
     <PackageLicenseExpression>(MIT)</PackageLicenseExpression>
     <Copyright>© Emmanuel Tissera</Copyright>
