@@ -1,6 +1,7 @@
 # StazorPages.Heartcore
 
-Creates static HTML pages on the first request to an [ASP.NET Core 5.0](https://docs.microsoft.com/en-us/aspnet/core/release-notes/aspnetcore-5.0) MVC project. A [StazorPages](https://github.com/emmanueltissera/stazorpages) plugin for [Umbraco Heartcore](https://umbraco.com/products/umbraco-heartcore/). Allows you to create a static website with ASP.NET Core 5.0.
+This [StazorPages](https://github.com/emmanueltissera/stazorpages) plugin for [Umbraco Heartcore](https://umbraco.com/products/umbraco-heartcore/) allows you to create a static website with  [ASP.NET Core 5.0](https://docs.microsoft.com/en-us/aspnet/core/release-notes/aspnetcore-5.0).
+Dynamic content is pulled in from Umbraco Heartcore on the first request and static HTML pages are created for future requests. A webhook enables the deletion of static pages on content updates. 
 
 ## How it works
 
